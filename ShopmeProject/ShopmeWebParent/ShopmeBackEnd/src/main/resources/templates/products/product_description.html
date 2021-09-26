@@ -3,12 +3,12 @@
 <body>
 <div th:fragment="content" th:remove="tag">
 	<div class="m-2">
-		<label>Short Description:</label>
+		<label>描述:</label>
 		<textarea class="form-control" th:field="*{shortDescription}" rows="5" required></textarea>
 	</div>
 	
 	<div class="m-2">
-		<label>Full Description:</label>
+		<label>完整描述:</label>
 		<textarea class="form-control" th:field="*{fullDescription}" rows="10" required></textarea>
 	</div>	
 </div>		
