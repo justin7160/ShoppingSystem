@@ -163,7 +163,7 @@ public class Category {
 	
 	@Transient
 	public String getImagePath() {
-		return "/category-images/" + this.id + "/" + this.image;
+		return Constants.S3_BASE_URI + "/category-images/" + this.id + "/" + this.image;
 	}
 	
 	public boolean isHasChildren() {
